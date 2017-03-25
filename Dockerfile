@@ -1,4 +1,4 @@
-FROM maven:3.2-jdk-7-onbuild
+FROM maven:3.3.9-jdk-7
 WORKDIR /usr/src
 RUN git clone http://git.eclipse.org/gitroot/orion/org.eclipse.orion.client.git
 RUN git clone http://git.eclipse.org/gitroot/orion/org.eclipse.orion.server.git
